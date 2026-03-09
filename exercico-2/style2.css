@@ -1,0 +1,72 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 50px;
+color: white;
+}
+
+#Titulo{
+    text-align: center;
+}
+span{
+    color:#febe01;
+}
+
+h1{
+    color: #111;
+    text-align: center;
+    
+}
+
+p{
+    color: grey;
+    margin: 30px;
+    
+}
+h2{
+    padding: 4px;
+    margin: 30px;
+    
+}
+
+.item{
+    background: #111;
+    border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 40px;
+
+    /*box-shadow: 8px 8px 5px grey;
+    background-image: linear-gradient(180deg, black, 40%, #cccccc)*/
+}
+
+a{
+    text-decoration: none;
+    background: #febe01;
+    color: #111;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+#Carro1{
+    max-width: 12%;
+    display: block;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 5px grey;
+}
+
+
+.container {
+      display: flex;   /* coloca os elementos lado a lado */
+      gap: 20px;       /* espaço entre as imagens */
+    }
+    .container img {
+    max-width: 20%; 
+    height: 100%;
+    border-radius: 15px;
+    display: block;
+    margin-top: 30px;
+    box-shadow: 8px 8px 5px grey;
+}
+    
